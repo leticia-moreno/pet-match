@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "355338399224",
+    "project_id": "petmatch-d2dec",
+    "storage_bucket": "petmatch-d2dec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355338399224:android:f092b096ac5e58e5dd7a0d",
+        "android_client_info": {
+          "package_name": "com.example.petmatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355338399224-bol39l5qpe0dm5h9v643dl5jfofelj4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQrTaoDHscohY7I6cnNkdgD_vEk5H3x1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355338399224-bol39l5qpe0dm5h9v643dl5jfofelj4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355338399224:android:b74f5dc339de191fdd7a0d",
+        "android_client_info": {
+          "package_name": "com.leticia.petmatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355338399224-bol39l5qpe0dm5h9v643dl5jfofelj4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQrTaoDHscohY7I6cnNkdgD_vEk5H3x1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355338399224-bol39l5qpe0dm5h9v643dl5jfofelj4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
