@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "355338399224",
+    "firebase_url": "https://petmatch-d2dec-default-rtdb.firebaseio.com",
     "project_id": "petmatch-d2dec",
     "storage_bucket": "petmatch-d2dec.appspot.com"
   },

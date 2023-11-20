@@ -49,6 +49,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '355338399224',
     projectId: 'petmatch-d2dec',
     authDomain: 'petmatch-d2dec.firebaseapp.com',
+    databaseURL: 'https://petmatch-d2dec-default-rtdb.firebaseio.com',
     storageBucket: 'petmatch-d2dec.appspot.com',
   );
 
@@ -57,6 +58,7 @@ class DefaultFirebaseOptions {
     appId: '1:355338399224:android:f092b096ac5e58e5dd7a0d',
     messagingSenderId: '355338399224',
     projectId: 'petmatch-d2dec',
+    databaseURL: 'https://petmatch-d2dec-default-rtdb.firebaseio.com',
     storageBucket: 'petmatch-d2dec.appspot.com',
   );
 
@@ -65,6 +67,7 @@ class DefaultFirebaseOptions {
     appId: '1:355338399224:ios:c4525eb8880fbe34dd7a0d',
     messagingSenderId: '355338399224',
     projectId: 'petmatch-d2dec',
+    databaseURL: 'https://petmatch-d2dec-default-rtdb.firebaseio.com',
     storageBucket: 'petmatch-d2dec.appspot.com',
     iosBundleId: 'com.example.petmatch',
   );
@@ -74,6 +77,7 @@ class DefaultFirebaseOptions {
     appId: '1:355338399224:ios:6682f18edd5518f8dd7a0d',
     messagingSenderId: '355338399224',
     projectId: 'petmatch-d2dec',
+    databaseURL: 'https://petmatch-d2dec-default-rtdb.firebaseio.com',
     storageBucket: 'petmatch-d2dec.appspot.com',
     iosBundleId: 'com.example.petmatch.RunnerTests',
   );
