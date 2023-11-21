@@ -28,6 +28,7 @@ class _ListingScreenState extends State<ListingScreen> {
 
   Future<void> _getImage() async {
     final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+
     if (pickedFile != null) {
       setState(() {
         _imageFile = File(pickedFile.path);
@@ -56,13 +57,14 @@ class _ListingScreenState extends State<ListingScreen> {
         });
 
         if (_imageFile != null) {
-          final path = "images/$uuid";
-          final imageRef = _storage.ref().child(path);
-          final uploadTask = imageRef.putFile(_imageFile!);
-          await uploadTask.whenComplete(() async {
-            final imageUrl = await imageRef.getDownloadURL();
-            userRef.child("image").set(imageUrl);
-          });
+          final snapshot = await _storage
+              .ref()
+              .child("animals")
+              .child(userRef.key!)
+              .child(uuid)
+              .putFile(_imageFile!);
+          final downloadUrl = await snapshot.ref.getDownloadURL();
+          userRef.child("image").set(downloadUrl);
         }
 
         _nameController.clear();
@@ -196,8 +198,8 @@ class _ListingScreenState extends State<ListingScreen> {
               ),
               const SizedBox(height: 10),
               _imageFile != null
-                  ? Image.network(
-                      _imageFile!.path,
+                  ? Image.file(
+                      _imageFile!,
                       width: 130,
                       height: 100,
                       fit: BoxFit.cover,
